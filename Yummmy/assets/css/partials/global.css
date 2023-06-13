@@ -1,0 +1,80 @@
+/* header {
+    background-color: rgb(21, 133, 232) !important;
+} */
+
+/* body{
+    font-family: 'Times New Roman',
+} */
+@font-face {
+    font-family: primary;
+    src: url(/assets/fonts/AmaticSC-Bold.ttf);
+}
+#container{
+    max-width: 1100px;
+    margin: auto;
+    
+}
+
+.navflex{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 30;
+    /* position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: #fff; */
+    transition: all 0.5s;
+    z-index: 997;
+    height: 90px;
+    border-bottom: 1px solid #fff;
+    
+    
+    /* letter-spacing: 41px; */
+
+}
+.leftnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.centernav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.centernav ul {
+    display: flex;
+    gap: 27px;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+.centernav ul li a{
+    text-decoration: none !important;
+    color: black;
+}
+.rightnav {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   height: 100%;
+   border-radius: 50px;
+   
+}
+
+.rightnav a{
+    font-size: 14px;
+    color: white;
+    padding: 8px 20px;
+    margin-left: 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+    background: red;
+    text-decoration: none !important;
+}
+

@@ -1,0 +1,29 @@
+@import url(/assets/css/partials/global.css);
+@import url(/assets/css/partials/enjoyhealthy.css);
+@import url(/assets/css/partials/aboutus.css);
+@import url(/assets/css/partials/whychoose.css);
+@import url(/assets/css/partials/withnumbers.css);
+@import url(/assets/css/partials/contactus.css);
+@import url(/assets/css/partials/footer.css);
+@import url();
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+}
+
+
+
+
+

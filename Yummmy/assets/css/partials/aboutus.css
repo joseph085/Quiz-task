@@ -1,0 +1,157 @@
+@import url(/assets/css/partials/global.css);
+
+#aboutus {
+    background: antiquewhite;
+
+}
+
+/* .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100% !important;
+
+} */
+
+.aboutustat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.topdivtext {
+    display: flex;
+}
+
+.aboutustat .pagetex h1 {
+    color: red;
+}
+
+.secondpage .image img {
+    width: 800px;
+    height: 600px;
+}
+
+.imagecover {
+    text-align: center;
+    background: rgb(255, 255, 255);
+    width: 500px;
+    height: 100px;
+    position: relative;
+    bottom: 200px;
+    left: 150px;
+}
+
+.topdivtext h1 {
+    font-family: 'primary', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.aboutustat p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.secondpage {
+    display: flex;
+    padding-left: 30px;
+}
+
+.abouttext .onetext {
+    width: 478px;
+    /* height: 100px; */
+}
+
+.abouttext .secondtext {
+    width: 450px;
+
+}
+
+.abouttext .thirdtext {
+    width: 450px;
+}
+
+.abouttext .fourthtext {
+    width: 450px;
+}
+
+.abouttext .fifthtext {
+    width: 450px;
+}
+
+.abouttext img {
+    /* width: 150px;
+    height: 150px; */
+    text-align: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    width: 478px;
+    height: 358px;
+    /* position: relative; */
+    bottom: 200px;
+    left: 150px;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+
+}
+
+/* .buttonlink {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.buttonlink .play {
+    position: inherit;
+    
+    /* top: 350px; */
+    color: inherit;
+   
+    
+    width: 300%;
+    height: 300px;  
+    max-width: fit-content;
+    background-color: #ce1212;
+   
+
+    
+
+}
+.buttonlink i {
+    content: "";
+    /* position: absolute; */
+    animation-delay: 0s;
+    animation: pulsate-btn 2s;
+    animation-direction: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(25);
+    opacity: 1;
+    border-radius: 50%;
+    border: 5px solid rgba(206, 18, 18, 0.7);
+    top: -15%;
+    width: auto;
+    height: auto;
+    left: -15%;
+    background: rgba(198, 16, 0, 0);
+
+}
+
+
+
+
+/* .imagecover{
+position: absolute;
+left: 10%;
+right: 10%;
+bottom: 10%;
+background-color: #fff;
+box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
+padding: 20px;
+text-align: center; */

@@ -1,0 +1,13 @@
+#withnumbers{
+    background-image: url(/assets/image\ and\ video/stats-bg.jpg);
+    width: 100%;
+    height: 356px;
+    /* max-width: 1356px; */
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 100px 0 0 0;
+    /* overflow: clip;
+    overflow-clip-margin: content-box; */
+    background-repeat: no-repeat;
+
+}
